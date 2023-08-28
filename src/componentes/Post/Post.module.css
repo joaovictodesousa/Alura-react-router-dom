@@ -47,14 +47,20 @@
   gap: 2em;
 }
 
-.botao_ver_mais {
-  border-radius: 30px;
-  margin: 0 auto;
+.cards_solo {
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform .2s;
 }
 
-.rodape {
-  background-color: dodgerblue;
-  padding: 1em;
+.cards_solo:hover {
+  transform: translate(0, -1rem);
+}
+
+.botao_ver_mais {
+  background-color: var(--azul-medio);
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
 .titulo_rodape {

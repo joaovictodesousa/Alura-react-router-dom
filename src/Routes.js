@@ -1,8 +1,11 @@
+//App é onde fica as rotas...
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
 import Joao from './paginas/Joao';
 import Menu from "./componentes/Menu";
+import Naoencontrada from './paginas/Naoencontrada';
 
 function App() {
   return (
@@ -12,8 +15,8 @@ function App() {
         <Route path="/" element={<Inicio />} />
         <Route path="/sobremim" element={<SobreMim />} />
         <Route path="/joao" element={<Joao />} />
-        <Route path="*" element={<div>Página não encontrada</div>} />
-      </Routes>
+        <Route path="*" element={ <Naoencontrada />} />  
+        </Routes>
     </BrowserRouter>
   );
 }

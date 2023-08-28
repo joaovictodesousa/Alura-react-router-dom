@@ -1,8 +1,9 @@
 import Banner from "componentes/banner";
 import styles from "./Inicio.module.css";
 
-import posts from "json/posts.json";
+import posts from "json/posts.json"; 
 import Post from "../../componentes/Post";
+//Os dois imports apagados são porque eu peguei os cardis do bootstrap
 
 export default function Inicio() {
     return (
