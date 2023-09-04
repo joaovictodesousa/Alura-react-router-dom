@@ -15,7 +15,7 @@ export default function Banner() {
 
             <div className={styles.imagens}>
 
-            <img className={styles.foto_joao} src={foto_joao} aria-hidden={true} alt='Minha foto' />
+            <img className={styles.foto_joao} src={foto_joao} alt='Minha foto' />
             
             </div>
         </div>

@@ -19,7 +19,7 @@ export default function Post() {
 
         <div>
             <div className={styles.cards}>
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa1} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -27,7 +27,7 @@ export default function Post() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa2} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -38,7 +38,7 @@ export default function Post() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa3} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -49,7 +49,7 @@ export default function Post() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa4} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -64,7 +64,7 @@ export default function Post() {
             {/* QUEBRA DE PAGINA */}
 
             <div className={styles.cards}>
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa5} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -75,7 +75,7 @@ export default function Post() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa6} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -86,7 +86,7 @@ export default function Post() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa7} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
@@ -97,7 +97,7 @@ export default function Post() {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className={styles.cards_solo}>
+                <Card className={styles.cards_solo}>
                     <Card.Img variant="top" src={capa8} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>

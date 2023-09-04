@@ -51,6 +51,11 @@
         padding: 3.5rem 1.5rem;
     }
 
+    .foto_joao {
+       display: block;
+       margin: 0 auto;
+    }
+
     .titulo {
         margin-top: 0;
         margin-bottom: 1.5rem;

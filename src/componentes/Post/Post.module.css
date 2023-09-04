@@ -11,6 +11,11 @@
   transform: translate(0, -1rem);
 }
 
+.menu-link {
+  text-decoration: underline;
+
+}
+
 .capa {
   width: 100%;
 }
@@ -23,7 +28,7 @@
   margin: 1.5rem 0 1.75rem;
 }
 
-.botaoLer {
+.botao_ver_mais {
   display: inline-block;
   border-radius: 24px;
   padding: 0.75rem 1.5rem;
@@ -36,7 +41,7 @@
   transition: 0.2s;
 }
 
-.botaoLer:hover {
+.botao_ver_mais:hover {
   border: 3px solid var(--azul-escuro);
 }
 
@@ -48,19 +53,14 @@
 }
 
 .cards_solo {
+  width: 18em;
   border-radius: 15px;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .cards_solo:hover {
   transform: translate(0, -1rem);
-}
-
-.botao_ver_mais {
-  background-color: var(--azul-medio);
-  padding: 10px 15px;
-  border-radius: 10px;
 }
 
 .titulo_rodape {
@@ -72,19 +72,24 @@
 @media (max-width: 1100px) {
   .post {
     width: 336px;
+    display: none;
   }
   .titulo {
     font-weight: 600;
   }
-  .botaoLer {
-    padding: 0.6875rem 1.5rem;
+  .botao_ver_mais {
+    padding: 0.6875rem 2em;
     font-size: 1.375rem;
   }
   .cards {
     margin: 0;
+    gap: 2em;
+    display: block;
+
   }
-  .container_cards {
-    width: 90%;
-    margin: 0 auto;
+
+  .cards_solo {
+    margin: 20px auto;    
+    width: 80%;
   }
 }

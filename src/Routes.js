@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
      <Menu/> {/* O menu foi importado do lado de fora do Routes para ficar em todas as paginas */}
       <Routes>
-        <Route path="/" element={<Inicio />} />
-        <Route path="/sobremim" element={<SobreMim />} />
-        <Route path="/joao" element={<Joao />} />
-        <Route path="*" element={ <Naoencontrada />} />  
+        <Route path="/" className="menu-link" element={<Inicio />} />
+        <Route path="/sobremim" className="menu-link" element={<SobreMim />} />
+        {/* <Route path="/joao" element={<Joao />} /> */}
+        <Route path="*" element={ <Naoencontrada />} />  {/* Pagina de 404 */}
         </Routes>
     </BrowserRouter>
   );

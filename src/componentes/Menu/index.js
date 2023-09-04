@@ -9,9 +9,9 @@ export default function Menu() {
                 <MenuLink to="/">
                     Inicio
                 </MenuLink>
-                <MenuLink to="/joao">
+                {/* <MenuLink to="/joao">
                     João
-                </MenuLink>
+                </MenuLink> */}
                 {/* No contexto do React Router, a propriedade to é usada para definir o destino (URL) para o qual um link deve apontar */}
                 <MenuLink to="/sobremim">
                     Sobre Mim
