@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
 import styles from './Post.module.css';
-import Button from 'react-bootstrap/Button';
 import capa1 from '../../assets/posts/1/capa.png';
 import capa2 from '../../assets/posts/2/capa.png';
 import capa3 from '../../assets/posts/3/capa.png';
@@ -10,7 +9,6 @@ import capa6 from '../../assets/posts/6/capa.png';
 import capa7 from '../../assets/posts/7/capa.png';
 import capa8 from '../../assets/posts/8/capa.png';
 import Rodape from 'componentes/Rodape';
-import { Link } from 'react-router-dom';
 
 
 
@@ -23,7 +21,7 @@ export default function Post() {
                     <Card.Img variant="top" src={capa1} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -34,7 +32,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -45,7 +43,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -56,7 +54,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
             </div>
@@ -71,7 +69,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -82,7 +80,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -93,7 +91,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -104,7 +102,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="/">Ler</a>
                     </Card.Body>
                 </Card>
             </div>

@@ -9,7 +9,7 @@ export default function Banner() {
                     Olá, mundo!
                 </h1>
                 <p className={styles.paragrafo}>
-                    Boas vindas ao meu espaço pessoal! Eu sou João Victor, programador Full Stack. Aqui compartilho vários conhecimentos, espero que aprenda algo novo :)
+                    Boas vindas ao meu espaço pessoal! <br/> Olá! Sou João Victor, desenvolvedor Full Stack com especialidade em HTML | CSS | JavaScript |React.js | PHP | Laravel| Bootstrap | MySQL | PostgreSQL | Git | Github. :)
                 </p>
             </div>
 
