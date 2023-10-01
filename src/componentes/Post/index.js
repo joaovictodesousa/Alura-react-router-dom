@@ -23,7 +23,7 @@ export default function Post() {
                     <Card.Img variant="top" src={capa1} />
                     <Card.Body>
                         <Card.Title>Titulo do Artigo</Card.Title>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -34,7 +34,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -45,7 +45,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -56,7 +56,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
             </div>
@@ -71,7 +71,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -82,7 +82,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -93,7 +93,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
 
@@ -104,7 +104,7 @@ export default function Post() {
                         <Card.Text>
 
                         </Card.Text>
-                        <a variant="primary" className={styles.botao_ver_mais} href="https://www.alura.com.br/artigos/python-origem-do-nome">Ler</a>
+                        <a variant="primary" className={styles.botao_ver_mais} href="#">Ler</a>
                     </Card.Body>
                 </Card>
             </div>
